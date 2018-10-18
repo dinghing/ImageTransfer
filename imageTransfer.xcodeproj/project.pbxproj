@@ -14,6 +14,7 @@
 		24D9E18A21782474002F9859 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D9E18821782474002F9859 /* LaunchScreen.storyboard */; };
 		24D9E19521782474002F9859 /* imageTransferTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D9E19421782474002F9859 /* imageTransferTests.swift */; };
 		24D9E1A021782474002F9859 /* imageTransferUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D9E19F21782474002F9859 /* imageTransferUITests.swift */; };
+		24D9E1AE21782560002F9859 /* StarryStyle.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 24D9E1AD21782560002F9859 /* StarryStyle.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		24D9E19B21782474002F9859 /* imageTransferUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imageTransferUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24D9E19F21782474002F9859 /* imageTransferUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageTransferUITests.swift; sourceTree = "<group>"; };
 		24D9E1A121782474002F9859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24D9E1AD21782560002F9859 /* StarryStyle.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = StarryStyle.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		24D9E17E2178246E002F9859 /* imageTransfer */ = {
 			isa = PBXGroup;
 			children = (
+				24D9E1AD21782560002F9859 /* StarryStyle.mlmodel */,
 				24D9E17F2178246E002F9859 /* AppDelegate.swift */,
 				24D9E1812178246E002F9859 /* ViewController.swift */,
 				24D9E1832178246E002F9859 /* Main.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				24D9E1822178246E002F9859 /* ViewController.swift in Sources */,
 				24D9E1802178246E002F9859 /* AppDelegate.swift in Sources */,
+				24D9E1AE21782560002F9859 /* StarryStyle.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XEB4V58WWH;
 				INFOPLIST_FILE = imageTransfer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XEB4V58WWH;
 				INFOPLIST_FILE = imageTransfer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
